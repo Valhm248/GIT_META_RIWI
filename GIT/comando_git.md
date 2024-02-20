@@ -29,11 +29,22 @@ Comando para ver el estado de nuestros archivos:
 git status
 
 
+Comando para ver todas las versiones de mi proyecto:
+
+git log 
+git log --oneline
+
 Pasos para crear una versión de mi código:
+
+1. Agregar los cambios
 
 git add .
 git add *. js, html o css
 git add archivo.html
+
+2. Comprometer los archivos
+
+git commit -m "Descripción del commit"
 
 
 
